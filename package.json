@@ -5,6 +5,11 @@
   "description": "Shinobi is a simple dark theme.",
   "license": "MIT",
   "repository": "https://github.com/ta9yu/shinobi-ui",
+  "keywords": [
+    "ui",
+    "theme",
+    "dark"
+  ],
   "engines": {
     "atom": ">0.40.0"
   }
