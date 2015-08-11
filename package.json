@@ -1,7 +1,7 @@
 {
   "name": "shinobi-ui",
   "theme": "ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shinobi is a simple dark theme.",
   "license": "MIT",
   "repository": "https://github.com/ta9yu/shinobi-ui",
