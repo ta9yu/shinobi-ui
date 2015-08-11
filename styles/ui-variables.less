@@ -1,0 +1,89 @@
+@app-base-color: #1c1c1c;
+
+// Colors
+@text-color: #7d868c;
+@text-color-subtle: lighten(@app-base-color, 20%);
+@text-color-highlight: lighten(@text-color, 50%);
+@text-color-selected: @text-color-highlight;
+
+@text-color-info: #7db9de;
+@text-color-success: #91b493;
+@text-color-warning: #caad5f;
+@text-color-error: #b5495b;
+
+@text-color-ignored: @text-color-subtle;
+@text-color-added: @text-color-success;
+@text-color-renamed: @text-color-info;
+@text-color-modified: @text-color-warning;
+@text-color-removed: @text-color-error;
+
+@background-color-info: saturate(@text-color-info, 35%);
+@background-color-success: saturate(@text-color-success, 35%);
+@background-color-warning: saturate(@text-color-warning, 35%);
+@background-color-error: saturate(@text-color-error, 35%);
+@background-color-highlight: rgba(255, 255, 255, 0.07);
+@background-color-selected: darken(@text-color, 34%);
+
+// The one true bg color
+@app-background-color: darken(@app-base-color, 4%);
+@tree-background-color: @app-background-color;
+@base-background-color: lighten(@app-background-color, 4%);
+@base-border-color: rgba(0, 0, 0, 0.5);
+
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: @tab-bar-background-color;
+
+@input-background-color: @app-background-color;
+@input-border-color: @base-border-color;
+
+@tool-panel-background-color: darken(@app-background-color, 2%);
+@tool-panel-border-color: transparent;
+
+@inset-panel-background-color: #161719;
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: #43484d;
+@panel-heading-border-color: fadein(@base-border-color, 10%);
+
+@overlay-background-color: @app-background-color;
+@overlay-border-color: @background-color-highlight;
+
+@button-background-color: @app-background-color;
+@button-background-color-hover: @app-background-color;
+@button-background-color-selected: @app-background-color;
+@button-border-color: transparent;
+
+@tab-bar-background-color: darken(@app-background-color, 3%);
+@tab-bar-border-color: transparent;
+@tab-background-color-active: @base-background-color;
+@tab-border-color: transparent;
+
+@tree-view-background-color: @tool-panel-background-color;
+@tree-view-border-color: @tool-panel-border-color;
+
+@scrollbar-background-color: rgba(42, 42, 42, 0.5);
+@scrollbar-color: rgba(92, 92, 92, 0.5);
+
+@ui-site-color-1: @background-color-success;
+@ui-site-color-2: @background-color-info;
+@ui-site-color-3: @background-color-warning;
+@ui-site-color-4: lighten(#b481bb, 10%);
+@ui-site-color-5: #7d6c46;
+
+@gutter-color: darken(@tab-background-color-active, 1%);
+
+
+// Sizes
+@font-size: 11px;
+@disclosure-arrow-size: 12px;
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 26px;
+@component-border-radius: 2px;
+@tab-height: 35px;
+@tab-top-padding: 3px;
+
+
+// Other
+@font-family: 'Lucida Grande', 'Segoe UI', sans-serif;
