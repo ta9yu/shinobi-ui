@@ -15,7 +15,7 @@ atom-text-editor[mini] {
   .selection .region { background-color: lighten(@input-background-color, 10%); }
 }
 
-atom-text-editor::shadow {
+atom-text-editor {
   .scroll-view {
     padding-left: 0px;
   }
@@ -25,7 +25,7 @@ atom-text-editor::shadow {
   }
 }
 
-atom-text-editor::shadow .gutter {
+atom-text-editor .gutter {
   border-right: 0;
 }
 
@@ -34,17 +34,17 @@ atom-text-editor[mini].is-focused {
   transition: background-color 0.1s
 }
 
-atom-text-editor::shadow .selection .region {
+atom-text-editor .selection .region {
   background-color: @background-color-selected;
 }
 
 
-atom-text-editor::shadow .highlighted.selection .region {
+atom-text-editor .highlighted.selection .region {
   -webkit-animation-name: highlight;
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
 }
 
-atom-text-editor::shadow .gutter.drop-shadow {
+atom-text-editor .gutter.syntax--drop-shadow {
   box-shadow: 5px 0 10px rgba(0,0,0,0.1);
 }
